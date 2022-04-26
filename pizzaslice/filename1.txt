@@ -1,0 +1,11 @@
+n: 0 Maximum Number of Pieces: 1
+n: 1 Maximum Number of Pieces: 2
+n: 2 Maximum Number of Pieces: 4
+n: 3 Maximum Number of Pieces: 7
+n: 4 Maximum Number of Pieces: 11
+n: 5 Maximum Number of Pieces: 16
+n: 6 Maximum Number of Pieces: 22
+n: 7 Maximum Number of Pieces: 29
+n: 8 Maximum Number of Pieces: 37
+n: 9 Maximum Number of Pieces: 46
+n: 10 Maximum Number of Pieces: 56
