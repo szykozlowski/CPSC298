@@ -25,9 +25,7 @@ public:
     }
   }
   bool save(std::string fileName){
-    std::fstream file;
-    file.open("filename1.txt");
-
+    std::ofstream file (fileName);
     for(int i = 0; i <= m_nMax;i++){
       file << "n: " << i << " Maximum Number of Pieces: " << mp_iNumbers[i] << '\n';
     }
@@ -42,7 +40,6 @@ private:
 };
 
 int main(){
-  std::ofstream file3 ("Hello.txt");
   CentralPolygonalNumbers central(10);
   central.display();
   central.save("filename1");
